@@ -35,21 +35,21 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Plots
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="#">Humidity</a></li>
-                <li><a class="dropdown-item" href="#">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+                <li><a class="dropdown-item" href="Max Temperature.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="Wind Speed.html">Wind Speed</a></li>
               </ul>
             </li>
-            <a class="nav-link" href="#">Comparison</a>
+            <a class="nav-link" href="Comparisons.html">Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
+              <a class="nav-link" href="Data.html">Data</a>
             </li>
         </div>
   </nav>
@@ -58,61 +58,50 @@
   <!-- Start of container -->
   <div class="container">
     <div class="row ">
-      <div class="col-8">
+      <!-- <div class="col-8"> -->
         <article class="description-content">
           <h1 class="description-header">Comparison: Latitude vs. X</h1>
           <hr class="description-hr" />
           <p>Click on any plot to get an in-depth analysis.</p>
-        </article>
-      </div>
-
-
-      <!-- Start of Visualizations Right sidebar -->
-      <div class="col-4">
-        <div class="container img-grid">
-          <h1 class="description-header">Visualizations</h1>
-          <hr class="description-hr" />
-          <div class="row row-cols-2">
-            <div class="col">
-              <div>
-                <a href="visualizations/temp.html"><img src="Resources/assets/images/Fig1.png"
-                    alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+          <div class="col-4">
+            <div class="container img-grid">
+             <hr class="description-hr" />
+              <div class="row row-cols-2">
+                <div class="col">
+                  <div>
+                    <a href="Max Temperature.html"><img src="Resources/assets/images/Fig1.png"
+                        alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png"
+                        alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png"
+                        alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                    <a href="Wind Speed.html"><img src="Resources/assets/images/Fig4.png"
+                        alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col">
-              <div>
-                <a href="visualizations/humidity.html"><img src="Resources/assets/images/Fig2.png"
-                    alt="Latitude vs. Humidity" class="imageNav-photo"></a>
-              </div>
-            </div>
-            <div class="col">
-              <div>
-                <a href="visualizations/cloudiness.html"><img src="Resources/assets/images/Fig3.png"
-                    alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
-              </div>
-            </div>
-            <div class="col">
-              <div>
-                <a href="visualizations/wind.html"><img src="Resources/assets/images/Fig4.png"
-                    alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
-              </div>
-            </div>
+            <!-- End of the Visualizations sidebar -->
           </div>
         </div>
-        <!-- End of the Visualizations sidebar -->
-      </div>
+        <!-- End of container -->
+        </article>
+      <!-- </div> -->
+
+
     </div>
-
-
-
-
-    <!-- End of container -->
-  </div>
-
-
-
-
-
 </body>
 
 </html>
