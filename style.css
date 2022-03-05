@@ -14,13 +14,13 @@ a.navbar-brand {
 
 .img-grid > div > div > div > a > img {
 /* .img-grid > img { */
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
 
 .img-grid {
     background-color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 100px 50px 50px;
     margin-top: 100px;
 }
 
@@ -31,4 +31,10 @@ a.navbar-brand {
 
 .description-header {
     color:aquamarine;   
+}
+
+.img-comparison {
+    background-color: white;
+    height: 400px;
+    width: 400px;
 }
